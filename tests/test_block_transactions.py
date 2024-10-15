@@ -2,12 +2,14 @@ import pytest
 from selenium import webdriver
 from config import BASE_URL
 from pages.block_page import BlockPage
+from utils.screenshot_util import take_screenshot
 
 @pytest.fixture(scope="module")
 def driver():
     driver = webdriver.Chrome()
     driver.get(BASE_URL)
     yield driver
+    take_screenshot(driver, "blockstream_test_passed")
     driver.quit()
 
 def test_transaction_heading(driver):

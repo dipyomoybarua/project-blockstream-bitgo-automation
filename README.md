@@ -29,4 +29,8 @@ This project automates the testing of the transaction explorer on Blockstream.in
      ```bash
      pytest tests/test_block_transactions.py
     ```
+5. **Screenshot Functionality**
+    ```bash
+    Screenshots of the page will be automatically captured after the tests pass and saved in the screenshots/ directory 
+    ```
 
