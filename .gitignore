@@ -1,14 +1,6 @@
 # Python cache files
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-
+.pytest_cache/
 # Virtual environment
 venv/
 *.env
-
-# Chrome WebDriver
-chromedriver
-chromedriver.exe
-webdriver_manager/

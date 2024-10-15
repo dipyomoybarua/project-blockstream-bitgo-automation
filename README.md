@@ -1,4 +1,4 @@
-# Transaction Explorer Automation Project
+# project-blockstream-bitgo-automation
 
 ## Overview
 This project automates the testing of the transaction explorer on Blockstream.info for a specific Bitcoin block. It validates the transaction heading and extracts transaction hashes based on specified criteria.
@@ -11,8 +11,8 @@ This project automates the testing of the transaction explorer on Blockstream.in
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
-   cd transaction-explorer-automation-project
+   git clone https://github.com/dipyomoybarua/project-blockstream-bitgo-automation.git
+   cd project-blockstream-bitgo-automation
    ```
 
 2. **Create and activate a virtual environment:**
